@@ -75,12 +75,15 @@ const Item = styled.div`
     width: 150px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 0rem;
     width: 75%;
     @media (min-width: 481px) and (max-width: 767px) {
       width: 40%;
+      place-self: center;
     }
     @media (min-width: 768px) and (max-width: 1024px) {
       width: 40%;
+      place-self: center;
     }
   }
   .padding {
@@ -94,9 +97,11 @@ const Item = styled.div`
     padding-top: 1rem;
     @media (min-width: 481px) and (max-width: 767px) {
       width: 40%;
+      place-self: center;
     }
     @media (min-width: 768px) and (max-width: 1024px) {
       width: 40%;
+      place-self: center;
     }
   }
 `;

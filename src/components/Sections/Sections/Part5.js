@@ -115,6 +115,18 @@ const Circle = styled.div`
     font-size: 40px;
     align-self: center;
     text-align: center;
+    place-self: center;
+    @media (min-width: 320px) and (max-width: 480px) {
+      align-self: center;
+      text-align: center;
+      place-self: center;
+    }
+
+    @media (min-width: 481px) and (max-width: 767px) {
+      align-self: center;
+      text-align: center;
+      place-self: center;
+    }
   }
 `;
 

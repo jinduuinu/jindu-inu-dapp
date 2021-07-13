@@ -18,7 +18,7 @@ const Wrapper = styled.section`
   }
   @media (min-width: 481px) and (max-width: 767px) {
     padding-bottom: 0rem !important;
-    padding-top: 6.5rem !important;
+    padding-top: 110px;
   }
   @media (min-width: 768px) and (max-width: 1024px) {
     padding-bottom: 0rem !important;
@@ -82,6 +82,18 @@ const Circle = styled.div`
     font-size: 40px;
     align-self: center;
     text-align: center;
+    place-self: center;
+    @media (min-width: 320px) and (max-width: 480px) {
+      align-self: center;
+      text-align: center;
+      place-self: center;
+    }
+
+    @media (min-width: 481px) and (max-width: 767px) {
+      align-self: center;
+      text-align: center;
+      place-self: center;
+    }
   }
 `;
 
