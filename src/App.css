@@ -1,38 +1,54 @@
-.App {
+App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: "JinduInuFont";
+  src: local("JinduInuFont"),
+    url(./components/ThemeUI/Fonts/JinduInuFont.woff) format("woff");
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: "JinduInu2";
+  src: local("JinduInu2"),
+    url(./components/ThemeUI/Fonts/Jindu2.woff) format("woff");
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+  font-family: "JinduInu3";
+  src: local("JinduInu3"),
+    url(./components/ThemeUI/Fonts/Jindu3.woff) format("woff");
 }
 
-.App-link {
-  color: #61dafb;
+@font-face {
+  font-family: "JinduInu4";
+  src: local("JinduInu4"),
+    url(./components/ThemeUI/Fonts/Jindu4.woff) format("woff");
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+  font-family: "JinduInuFont", sans-serif;
+}
+
+.diego {
+  height: 200vh;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #f9f7f9;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #faad5e;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #faad5e;
 }
