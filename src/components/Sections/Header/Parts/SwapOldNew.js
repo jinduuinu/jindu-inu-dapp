@@ -22,34 +22,58 @@ const ButtonUp = styled.button`
   border: none;
   padding: 20px;
   box-shadow: 0 10px 30px 0 rgb(0 0 0 / 10%);
+  @media (min-width: 320px) and (max-width: 480px) {
+    height: 400px;
+  }
 
   h3.number {
     position: absolute;
     bottom: 11.9rem;
     left: 2rem;
+    @media (min-width: 320px) and (max-width: 480px) {
+      display: none;
+    }
   }
 
   p.nameTok {
     position: absolute;
     top: 11.5rem;
     font-size: 12px;
+    @media (min-width: 320px) and (max-width: 480px) {
+      position: absolute;
+      top: 10.6rem;
+      left: 2rem;
+      font-size: 12px;
+    }
   }
 
   p.nameTok2 {
     position: absolute;
     top: 17.6rem;
     font-size: 12px;
+    @media (min-width: 320px) and (max-width: 480px) {
+      position: absolute;
+      top: 16.7rem;
+      font-size: 12px;
+      left: 2rem;
+    }
   }
 
   h3.number2 {
     position: absolute;
     bottom: 5.7rem;
     left: 2rem;
+    @media (min-width: 320px) and (max-width: 480px) {
+      display: none;
+    }
   }
   h3 {
     margin-bottom: 1rem;
     font-family: "JinduInu2", sans-serif;
     color: #344161;
+    @media (min-width: 320px) and (max-width: 480px) {
+      margin-bottom: 2rem;
+    }
   }
 
   .inPut {
@@ -131,9 +155,14 @@ const ButtonUp = styled.button`
     right: -25rem;
     position: absolute;
     @media (min-width: 320px) and (max-width: 480px) {
-      right: -16rem;
-      height: 100px;
-      top: -5.8rem;
+      display: none;
+    }
+  }
+
+  .bx-transfer {
+    @media (min-width: 320px) and (max-width: 480px) {
+      bottom: 10.2rem;
+      left: 120px;
     }
   }
 

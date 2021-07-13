@@ -13,7 +13,8 @@ const Wrapper = styled.section`
   background: url(${Bg}) no-repeat center;
   background-size: cover;
   @media (min-width: 320px) and (max-width: 480px) {
-    padding-bottom: 0px;
+    padding-top: 2rem !important;
+    padding-bottom: 0rem !important;
   }
 `;
 

@@ -20,9 +20,9 @@ const Wrapper = styled.section`
   grid-template-columns: auto;
   grid-row-gap: 10rem;
   @media (min-width: 320px) and (max-width: 480px) {
-    padding-top: 0;
+    padding-top: 0px !important;
     padding-bottom: 0;
-    grid-row-gap: 2rem;
+    grid-row-gap: 0rem;
   }
 `;
 
