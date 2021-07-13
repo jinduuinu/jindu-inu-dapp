@@ -13,17 +13,14 @@ const Wrapper = styled.section`
   background: url(${Bg}) no-repeat center;
   background-size: cover;
   @media (min-width: 320px) and (max-width: 480px) {
-    margin-top: 2rem !important;
     padding-bottom: 0rem !important;
     padding-top: 2rem !important;
   }
   @media (min-width: 481px) and (max-width: 767px) {
-    margin-top: 2rem !important;
     padding-bottom: 0rem !important;
     padding-top: 6.5rem !important;
   }
   @media (min-width: 768px) and (max-width: 1024px) {
-    margin-top: 2rem !important;
     padding-bottom: 0rem !important;
     padding-top: 2rem !important;
   }
@@ -71,6 +68,14 @@ const Circle = styled.div`
   margin-bottom: 1.5rem;
   text-align-last: center;
 
+  @media (min-width: 320px) and (max-width: 480px) {
+    justify-self: center;
+  }
+
+  @media (min-width: 481px) and (max-width: 767px) {
+    justify-self: center;
+  }
+
   i {
     position: relative;
     top: calc(50% - 20px);
@@ -85,6 +90,13 @@ const Text = styled.p`
   font-size: 17px;
   font-family: "JinduInu2", sans-serif;
   margin-bottom: 1.5rem;
+  @media (min-width: 320px) and (max-width: 480px) {
+    text-align: center;
+  }
+
+  @media (min-width: 481px) and (max-width: 767px) {
+    text-align: center;
+  }
 `;
 
 const Link = styled.a`
@@ -99,6 +111,13 @@ const Link = styled.a`
   background-size: 100% 1px, 0 1px, 0 1px;
   background-position: 0 100%, 0 100%, 0 100%;
   background-repeat: no-repeat;
+  @media (min-width: 320px) and (max-width: 480px) {
+    justify-self: center;
+  }
+
+  @media (min-width: 481px) and (max-width: 767px) {
+    justify-self: center;
+  }
 `;
 
 const Part1 = () => {

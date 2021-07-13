@@ -14,6 +14,15 @@ const Info = styled.div`
   @media (min-width: 768px) and (max-width: 1024px) {
     padding-top: 8rem;
   }
+
+  button {
+    @media (min-width: 481px) and (max-width: 767px) {
+      display: none;
+    }
+    @media (min-width: 768px) and (max-width: 1024px) {
+      display: none;
+    }
+  }
 `;
 
 const Title = styled.h2`
