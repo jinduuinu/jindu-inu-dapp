@@ -1,8 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 import LogoImg from "../../images/logo.webp";
+import LogoJPG from "../../images/logo.jpg";
 import ConnectImg from "../../images/left.svg";
 import Button from "../ThemeUI/Button";
+import FallBack from "../ThemeUI/FallBack";
 
 const Wrapper = styled.div`
   position: fixed;
@@ -66,9 +68,14 @@ function Navbar() {
     <Wrapper>
       <Nav className="navbar">
         <FullWidth>
-          <picture>
-            <img src={LogoImg} type="image/webp" alt="logo" className="logo" />
-          </picture>
+          <FallBack
+            src={LogoImg}
+            alt="logo"
+            className="logo"
+            fallback={LogoJPG}
+            alt="A photo showing the expiration date on a box of Lucky Charms"
+          />
+
           <h2 className="logoMain">Jindu Inu</h2>
           <Button text="Connect" />
           <img src={ConnectImg} alt="login" className="connecting"></img>
