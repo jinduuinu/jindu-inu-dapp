@@ -25,32 +25,6 @@ const Grid = styled.div`
   }
 `;
 
-const Item = styled.div``;
-
-const Title = styled.h2`
-  font-size: 42px;
-  font-family: "JinduInu2", sans-serif;
-  margin-bottom: 2rem;
-`;
-
-const Description = styled.span`
-  text-decoration: unset;
-  background-image: linear-gradient(#faad5d, #faad5d),
-    linear-gradient(#fff, #fff), linear-gradient(#faad5d, #faad5d);
-  background-size: 100% 1px, 0 1px, 0 1px;
-  background-position: 0 100%, 0 100%, 0 100%;
-  background-repeat: no-repeat;
-  font-family: "JinduInu2", sans-serif;
-
-  font-size: 19px;
-`;
-
-const Text = styled.p`
-  margin-top: 1rem;
-  margin-bottom: 2rem;
-  font-family: "JinduInu2", sans-serif;
-`;
-
 const Part9 = () => {
   return (
     <Background className="footerBg">

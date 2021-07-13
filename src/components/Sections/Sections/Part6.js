@@ -56,60 +56,22 @@ const Item = styled.div`
   }
 `;
 
-const Circle = styled.div`
-  height: 70px;
-  width: 70px;
-  background-color: #fad5b1;
-  border-radius: 50%;
-  display: inline-block;
-  margin-bottom: 1.5rem;
-  text-align-last: center;
-
-  i {
-    position: relative;
-    top: calc(50% - 20px);
-    font-size: 40px;
-  }
-`;
-
-const Text = styled.p`
-  line-height: 1.5;
-  font-size: 17px;
-  color: rgba(0, 0, 0, 0.7);
-  font-family: "JinduInu2", sans-serif;
-  margin-bottom: 1.5rem;
-`;
-
-const Link = styled.a`
-  line-height: 1.5;
-  font-size: 17px;
-  color: rgba(0, 0, 0, 0.7);
-  font-family: "JinduInu2", sans-serif;
-  margin-bottom: 1.5rem;
-  text-decoration: unset;
-  background-image: linear-gradient(#faad5d, #faad5d),
-    linear-gradient(#fff, #fff), linear-gradient(#faad5d, #faad5d);
-  background-size: 100% 1px, 0 1px, 0 1px;
-  background-position: 0 100%, 0 100%, 0 100%;
-  background-repeat: no-repeat;
-`;
-
 const Part6 = () => {
   return (
     <Wrapper>
       <Grid>
         <Item>
-          <img src={Image1} />
+          <img src={Image1} alt="jindu" />
         </Item>
 
         <Item>
-          <img src={Image2} />
+          <img src={Image2} alt="jindu" />
         </Item>
         <Item>
-          <img className="width" src={Image3} />
+          <img className="width" alt="jindu" src={Image3} />
         </Item>
         <Item>
-          <img className="width" src={Image4} />
+          <img className="width" alt="jindu" src={Image4} />
         </Item>
       </Grid>
     </Wrapper>
