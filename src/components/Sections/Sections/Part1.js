@@ -77,7 +77,6 @@ const Circle = styled.div`
   }
 
   i {
-    position: relative;
     top: calc(50% - 20px);
     font-size: 40px;
     align-self: center;

@@ -14,15 +14,6 @@ const Info = styled.div`
   @media (min-width: 768px) and (max-width: 1024px) {
     padding-top: 8rem;
   }
-
-  button {
-    @media (min-width: 481px) and (max-width: 767px) {
-      display: none;
-    }
-    @media (min-width: 768px) and (max-width: 1024px) {
-      display: none;
-    }
-  }
 `;
 
 const Title = styled.h2`
@@ -82,6 +73,18 @@ const Underline = styled.i`
   background-repeat: no-repeat;
 `;
 
+const BtnTop = styled.div`
+  @media (min-width: 320px) and (max-width: 480px) {
+    display: none;
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
+    display: none;
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    display: none;
+  }
+`;
+
 const Description = () => {
   return (
     <Info>
@@ -92,7 +95,9 @@ const Description = () => {
         <Underline className="underline">hyper deflationary token</Underline>{" "}
         with extra benefits to holder.
       </Text>
-      <Button text="Get started" />
+      <BtnTop>
+        <Button text="Get started" />
+      </BtnTop>
     </Info>
   );
 };
