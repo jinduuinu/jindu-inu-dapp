@@ -66,7 +66,7 @@ function Navbar() {
     <Wrapper>
       <Nav className="navbar">
         <FullWidth>
-          <img src={LogoImg} alt="logo" className="logo" />
+          <img src={LogoImg} type="image/webp" alt="logo" className="logo" />
           <h2 className="logoMain">Jindu Inu</h2>
           <Button text="Connect" />
           <img src={ConnectImg} alt="login" className="connecting"></img>
