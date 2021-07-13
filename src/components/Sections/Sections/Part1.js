@@ -17,6 +17,16 @@ const Wrapper = styled.section`
     padding-bottom: 0rem !important;
     padding-top: 2rem !important;
   }
+  @media (min-width: 481px) and (max-width: 767px) {
+    margin-top: 2rem !important;
+    padding-bottom: 0rem !important;
+    padding-top: 6.5rem !important;
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    margin-top: 2rem !important;
+    padding-bottom: 0rem !important;
+    padding-top: 2rem !important;
+  }
 `;
 
 const Grid = styled.div`
@@ -26,6 +36,15 @@ const Grid = styled.div`
 
   @media (min-width: 320px) and (max-width: 480px) {
     grid-template-columns: 1fr;
+    padding: 20px;
+  }
+
+  @media (min-width: 481px) and (max-width: 767px) {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    grid-template-columns: 1fr 1fr;
     padding: 20px;
   }
 `;

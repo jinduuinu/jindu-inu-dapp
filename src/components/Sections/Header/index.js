@@ -32,6 +32,16 @@ const Height = styled.div`
     grid-template-columns: 1fr;
     grid-gap: 2rem;
   }
+  @media (min-width: 481px) and (max-width: 767px) {
+    grid-template-columns: 1fr;
+    padding: 20px;
+    grid-gap: 2rem;
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    grid-gap: 2rem;
+  }
 `;
 
 const Header = () => {

@@ -35,6 +35,19 @@ const Grid = styled.div`
     grid-template-columns: 1fr;
     padding: 20px;
     grid-gap: 2rem;
+    align-items: center;
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
+    grid-template-columns: 1fr;
+    padding: 20px;
+    grid-gap: 2rem;
+    align-items: center;
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    grid-gap: 2rem;
+    align-items: center;
   }
 `;
 
@@ -49,11 +62,26 @@ const Item = styled.div`
   display: block;
   text-align-last: center;
   background: #fff;
+  @media (min-width: 320px) and (max-width: 480px) {
+    width: 100%;
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
+    width: 100%;
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    width: 100%;
+  }
   img {
     width: 150px;
     margin-left: auto;
     margin-right: auto;
     width: 75%;
+    @media (min-width: 481px) and (max-width: 767px) {
+      width: 40%;
+    }
+    @media (min-width: 768px) and (max-width: 1024px) {
+      width: 40%;
+    }
   }
   .padding {
     margin-bottom: 1.5rem;
@@ -64,6 +92,12 @@ const Item = styled.div`
     margin-right: auto;
     width: 55%;
     padding-top: 1rem;
+    @media (min-width: 481px) and (max-width: 767px) {
+      width: 40%;
+    }
+    @media (min-width: 768px) and (max-width: 1024px) {
+      width: 40%;
+    }
   }
 `;
 

@@ -8,6 +8,13 @@ const Background = styled.div`
   @media (min-width: 320px) and (max-width: 480px) {
     background: none;
   }
+  @media (min-width: 481px) and (max-width: 767px) {
+    background: none;
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+  }
 `;
 const Wrapper = styled.section`
   box-sizing: content-box;
@@ -24,6 +31,16 @@ const Wrapper = styled.section`
     padding-bottom: 0;
     grid-row-gap: 0rem;
   }
+  @media (min-width: 481px) and (max-width: 767px) {
+    padding-top: 0px !important;
+    padding-bottom: 0;
+    grid-row-gap: 0rem;
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    padding-top: 0px !important;
+    padding-bottom: 0;
+    grid-row-gap: 0rem;
+  }
 `;
 
 const Grid = styled.div`
@@ -34,6 +51,14 @@ const Grid = styled.div`
     grid-template-columns: 1fr;
     padding: 20px;
   }
+  @media (min-width: 481px) and (max-width: 767px) {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+  }
 `;
 
 const GridTwo = styled.div`
@@ -42,6 +67,14 @@ const GridTwo = styled.div`
   grid-gap: 2rem;
   @media (min-width: 320px) and (max-width: 480px) {
     grid-template-columns: 1fr;
+    padding: 20px;
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    grid-template-columns: 1fr 1fr;
     padding: 20px;
   }
 `;
