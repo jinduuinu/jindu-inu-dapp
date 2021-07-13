@@ -64,9 +64,10 @@ const Circle = styled.div`
   width: 70px;
   background-color: #faad5d;
   border-radius: 50%;
-  display: inline-block;
   margin-bottom: 1.5rem;
-  text-align-last: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   @media (min-width: 320px) and (max-width: 480px) {
     justify-self: center;
