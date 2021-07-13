@@ -20,6 +20,9 @@ const Grid = styled.div`
   text-align: center;
   padding-top: 1.75rem;
   font-family: "JinduInu2", sans-serif;
+  @media (min-width: 320px) and (max-width: 480px) {
+    font-size: 13px;
+  }
 `;
 
 const Item = styled.div``;

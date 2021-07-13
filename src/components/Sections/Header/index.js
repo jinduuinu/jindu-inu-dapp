@@ -7,6 +7,9 @@ import Bg from "../../../images/InuB.svg";
 const BgMain = styled.div`
   background: url(${Bg}) no-repeat center;
   background-size: cover;
+  @media (min-width: 320px) and (max-width: 480px) {
+    background: none;
+  }
 `;
 
 const Wrapper = styled.section`
@@ -27,6 +30,7 @@ const Height = styled.div`
 
   @media (min-width: 320px) and (max-width: 480px) {
     grid-template-columns: 1fr;
+    grid-gap: 2rem;
   }
 `;
 

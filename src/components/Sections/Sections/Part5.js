@@ -5,6 +5,9 @@ import Bg from "../../../images/Parrttttttttt.svg";
 const Background = styled.div`
   background: url(${Bg}) no-repeat center;
   background-size: cover;
+  @media (min-width: 320px) and (max-width: 480px) {
+    background: none;
+  }
 `;
 const Wrapper = styled.section`
   box-sizing: content-box;
@@ -16,6 +19,11 @@ const Wrapper = styled.section`
   display: grid;
   grid-template-columns: auto;
   grid-row-gap: 10rem;
+  @media (min-width: 320px) and (max-width: 480px) {
+    padding-top: 0;
+    padding-bottom: 0;
+    grid-row-gap: 2rem;
+  }
 `;
 
 const Grid = styled.div`

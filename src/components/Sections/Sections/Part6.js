@@ -13,6 +13,12 @@ const Wrapper = styled.section`
   padding-top: 60px;
   padding-bottom: 80px;
   display: flex;
+
+  @media (min-width: 320px) and (max-width: 480px) {
+    padding-top: 0;
+    padding-bottom: 1rem;
+    justify-content: center;
+  }
 `;
 
 const Grid = styled.div`
@@ -23,6 +29,7 @@ const Grid = styled.div`
   @media (min-width: 320px) and (max-width: 480px) {
     grid-template-columns: 1fr;
     padding: 20px;
+    grid-gap: 2rem;
   }
 `;
 

@@ -146,6 +146,10 @@ const ButtonUp = styled.button`
   }
   .descriptionSwap {
     color: #344161 !important;
+
+    @media (min-width: 320px) and (max-width: 480px) {
+      display: none;
+    }
   }
 `;
 

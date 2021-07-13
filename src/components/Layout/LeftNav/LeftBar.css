@@ -62,24 +62,49 @@ body {
   font-weight: 400;
 }
 .sidebar #btn {
-  position: fixed;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0rem;
+  z-index: 99;
+  height: 3rem;
+  width: 100%;
+  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
+  font-weight: 200;
+  color: rgb(255, 255, 255);
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: #faad5e;
+  border-color: #344161;
+  margin: 0 auto;
+  width: 40px !important;
+  height: 40px !important;
   top: 15px;
-  left: 2.4%;
-  transform: translateX(-50%);
-  min-width: 40px;
-  line-height: 40px;
-  font-size: 20px;
+  left: 0.95rem;
   border-radius: 12px;
-  text-align: center;
-  transition: all 0.4s ease;
-  background: #faad5e;
-  color: #344161;
   border: #344161;
   border-top-style: initial;
   border-right-style: initial;
   border-left-style: initial;
   border-image: initial;
   border-bottom-style: solid !important;
+  color: #344161;
+  transition: all 0.4s ease;
+  font-size: 20px;
 }
 
 .sidebar ul {

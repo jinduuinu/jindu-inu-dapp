@@ -22,7 +22,7 @@ const Title = styled.h2`
 
   @media (min-width: 320px) and (max-width: 480px) {
     font-size: 30px;
-    padding-top: 1.5rem;
+    margin-top: 0rem !important;
   }
 `;
 

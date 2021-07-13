@@ -53,6 +53,12 @@ const FullWidth = styled.div`
     margin-right: 1rem;
     right: 1rem;
   }
+
+  .logoMain {
+    @media (min-width: 320px) and (max-width: 480px) {
+      display: none;
+    }
+  }
 `;
 
 function Navbar() {

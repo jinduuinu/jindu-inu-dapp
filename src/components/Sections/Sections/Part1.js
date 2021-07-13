@@ -12,6 +12,9 @@ const Wrapper = styled.section`
   display: flex;
   background: url(${Bg}) no-repeat center;
   background-size: cover;
+  @media (min-width: 320px) and (max-width: 480px) {
+    padding-bottom: 0px;
+  }
 `;
 
 const Grid = styled.div`
