@@ -218,7 +218,7 @@ const Part5 = () => {
         <GridTwo>
           <Item>
             <Circle>
-              <i class="bx bxs-planet"></i>{" "}
+              <i class="bx bxs-timer"></i>
             </Circle>
             <Text>
               If you do not swap before phase 3, you cannot swap in the future.
@@ -226,7 +226,7 @@ const Part5 = () => {
           </Item>
           <Item>
             <Circle>
-              <i class="bx bxs-planet"></i>{" "}
+              <i class="bx bxs-coin"></i>
             </Circle>
             <Text>
               Since we can't subtract all the bnb from the old jind pool, the
@@ -236,7 +236,7 @@ const Part5 = () => {
           </Item>
           <Item>
             <Circle>
-              <i class="bx bxs-planet"></i>{" "}
+              <i class="bx bxs-analyse"></i>
             </Circle>
             <Text>
               If you buy an old jind after phase3, we can't do a swap. please be
@@ -245,7 +245,7 @@ const Part5 = () => {
           </Item>
           <Item>
             <Circle>
-              <i class="bx bxs-planet"></i>{" "}
+              <i class="bx bxs-shield-alt-2"></i>{" "}
             </Circle>
             <Text>
               We cannot reward holders who have not migrated, so please make

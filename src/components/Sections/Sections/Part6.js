@@ -62,14 +62,24 @@ const Item = styled.div`
   display: block;
   text-align-last: center;
   background: #fff;
+
   @media (min-width: 320px) and (max-width: 480px) {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   @media (min-width: 481px) and (max-width: 767px) {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   @media (min-width: 768px) and (max-width: 1024px) {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   img {
     width: 150px;
@@ -77,13 +87,12 @@ const Item = styled.div`
     margin-right: auto;
     padding-top: 0rem;
     width: 75%;
+
     @media (min-width: 481px) and (max-width: 767px) {
       width: 40%;
-      place-self: center;
     }
     @media (min-width: 768px) and (max-width: 1024px) {
       width: 40%;
-      place-self: center;
     }
   }
   .padding {
@@ -95,13 +104,12 @@ const Item = styled.div`
     margin-right: auto;
     width: 55%;
     padding-top: 1rem;
+
     @media (min-width: 481px) and (max-width: 767px) {
       width: 40%;
-      place-self: center;
     }
     @media (min-width: 768px) and (max-width: 1024px) {
       width: 40%;
-      place-self: center;
     }
   }
 `;
