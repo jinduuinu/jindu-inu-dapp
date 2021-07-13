@@ -15,6 +15,7 @@ const Wrapper = styled.section`
   @media (min-width: 320px) and (max-width: 480px) {
     margin-top: 2rem !important;
     padding-bottom: 0rem !important;
+    padding-top: 0;
   }
 `;
 

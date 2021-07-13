@@ -1,9 +1,14 @@
 import React from "react";
 import styled from "styled-components";
+import FallBack from "../../ThemeUI/FallBack";
 import Image1 from "../../../images/coinmarketcap.webp";
-import Image2 from "../../../images/coingecko.webp";
-import Image3 from "../../../images/hobit.webp";
-import Image4 from "../../../images/indoex.webp";
+import Image2 from "../../../images/coinmarketcap.jpg";
+import Image3 from "../../../images/coingecko.webp";
+import Image4 from "../../../images/coingecko.jpg";
+import Image5 from "../../../images/hobit.webp";
+import Image6 from "../../../images/hobit.jpg";
+import Image7 from "../../../images/indoex.webp";
+import Image8 from "../../../images/indoex.jpg";
 
 const Wrapper = styled.section`
   box-sizing: content-box;
@@ -46,13 +51,19 @@ const Item = styled.div`
   background: #fff;
   img {
     width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
   }
   .padding {
     margin-bottom: 1.5rem;
   }
 
   .width {
-    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    padding-top: 1rem;
   }
 `;
 
@@ -61,17 +72,37 @@ const Part6 = () => {
     <Wrapper>
       <Grid>
         <Item>
-          <img src={Image1} alt="jindu" />
+          <FallBack
+            src={Image1}
+            alt="logo"
+            className="logo"
+            fallback={Image2}
+          />
         </Item>
 
         <Item>
-          <img src={Image2} alt="jindu" />
+          <FallBack
+            src={Image3}
+            alt="logo"
+            className="logo"
+            fallback={Image4}
+          />
         </Item>
         <Item>
-          <img className="width" alt="jindu" src={Image3} />
+          <FallBack
+            src={Image5}
+            alt="logo"
+            className="width"
+            fallback={Image6}
+          />{" "}
         </Item>
         <Item>
-          <img className="width" alt="jindu" src={Image4} />
+          <FallBack
+            src={Image7}
+            alt="logo"
+            className="width"
+            fallback={Image8}
+          />
         </Item>
       </Grid>
     </Wrapper>
