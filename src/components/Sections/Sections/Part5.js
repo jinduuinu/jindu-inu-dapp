@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Bg from "../../../images/Parrttttttttt.svg";
+import Bg from "../../../images/bgpart1.svg";
 
 const Background = styled.div`
   background: url(${Bg}) no-repeat center;
@@ -72,6 +72,8 @@ const Circle = styled.div`
     position: relative;
     top: calc(50% - 20px);
     font-size: 40px;
+    align-self: center;
+    text-align: center;
   }
 `;
 

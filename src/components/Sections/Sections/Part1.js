@@ -15,7 +15,7 @@ const Wrapper = styled.section`
   @media (min-width: 320px) and (max-width: 480px) {
     margin-top: 2rem !important;
     padding-bottom: 0rem !important;
-    padding-top: 0;
+    padding-top: 2rem !important;
   }
 `;
 
@@ -56,6 +56,8 @@ const Circle = styled.div`
     position: relative;
     top: calc(50% - 20px);
     font-size: 40px;
+    align-self: center;
+    text-align: center;
   }
 `;
 
