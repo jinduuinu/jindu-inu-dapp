@@ -25,7 +25,7 @@ const Grid = styled.div`
   }
 `;
 
-const Part9 = () => {
+const Part4 = () => {
   return (
     <Background className="footerBg">
       <Wrapper>
@@ -37,4 +37,4 @@ const Part9 = () => {
   );
 };
 
-export default Part9;
+export default Part4;

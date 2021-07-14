@@ -1,5 +1,5 @@
 export const lightTheme = {
-  body: "#fff",
+  body: "#fef5ea",
   p: "#344161",
   sidebar: "#fff",
   nav_list: "#fff",
@@ -9,7 +9,7 @@ export const lightTheme = {
   tagline: "#8f561a",
   logoMain: "#344161",
   descriptionSwap: "#344161",
-  pa: "#313131",
+  pa: "#344161",
   footer: "#fff",
   footercolor: "#344161",
   para: "#faad5d",

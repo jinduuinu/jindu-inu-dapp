@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Button from "../../../ThemeUI/Button";
 import Dog from "../../../../images/dog.webp";
 import { ReactComponent as XSVG } from "../../../../images/x.svg";
+import MetamaskTwo from "../../../ThemeUI/MetamaskTwo";
 
 const Wrapper = styled.div`
   @media (min-width: 320px) and (max-width: 480px) {
@@ -143,7 +144,7 @@ const ButtonUp = styled.button`
   p {
     margin-bottom: 3rem;
     color: #344161;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 1.5;
     font-family: "JinduInu2", sans-serif;
@@ -180,7 +181,7 @@ const ButtonUp = styled.button`
     left: 225px;
   }
   .descriptionSwap {
-    color: #344161 !important;
+    color: #344161;
 
     @media (min-width: 320px) and (max-width: 480px) {
       display: none;
@@ -227,7 +228,7 @@ const SwapOldNew = () => {
               </div>
             </div>
           </div>
-          <Button text="Swap now" />
+          <MetamaskTwo />
         </ButtonUp>
       ) : null}
     </Wrapper>

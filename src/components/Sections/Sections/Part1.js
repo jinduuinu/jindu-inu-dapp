@@ -99,7 +99,8 @@ const Circle = styled.div`
 
 const Text = styled.p`
   line-height: 1.5;
-  font-size: 17px;
+  font-size: 15px;
+  color: #344161;
   font-family: "JinduInu2", sans-serif;
   margin-bottom: 1.5rem;
   @media (min-width: 320px) and (max-width: 480px) {
@@ -114,7 +115,7 @@ const Text = styled.p`
 const Link = styled.a`
   line-height: 1.5;
   font-size: 18px;
-  color: rgba(0, 0, 0, 0.7);
+  color: #344161;
   font-family: "JinduInu2", sans-serif;
   margin-bottom: 1.5rem;
   text-decoration: unset;

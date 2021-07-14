@@ -132,8 +132,8 @@ const Circle = styled.div`
 
 const Text = styled.li`
   line-height: 1.5;
-  font-size: 17px;
-  color: rgba(0, 0, 0, 0.7);
+  font-size: 15px;
+  color: #344161;
   font-family: "JinduInu2", sans-serif;
   margin-bottom: 1.5rem;
   list-style: none;
@@ -149,7 +149,7 @@ const Text = styled.li`
 const Link = styled.a`
   line-height: 1.5;
   font-size: 18px;
-  color: rgba(0, 0, 0, 0.7);
+  color: #344161;
   font-family: "JinduInu2", sans-serif;
   margin-bottom: 1.5rem;
   text-decoration: unset;
@@ -167,7 +167,7 @@ const Link = styled.a`
   }
 `;
 
-const Part5 = () => {
+const Part2 = () => {
   return (
     <Background>
       <Wrapper>
@@ -258,4 +258,4 @@ const Part5 = () => {
   );
 };
 
-export default Part5;
+export default Part2;

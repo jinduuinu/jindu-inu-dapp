@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Button from "../../../ThemeUI/Button";
+import MetamaskThree from "../../../ThemeUI/MetamaskThree";
 
 const Info = styled.div`
   font-family: "JinduInu2", sans-serif;
@@ -54,9 +55,9 @@ const TagLine = styled.span`
 `;
 
 const Text = styled.p`
-  color: rgba(0, 0, 0, 0.7);
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 400;
+  width: 90%;
   line-height: 1.5;
   margin-bottom: 1.5rem;
   font-family: "JinduInu2", sans-serif;
@@ -96,7 +97,7 @@ const Description = () => {
         with extra benefits to holder.
       </Text>
       <BtnTop>
-        <Button text="Get started" />
+        <MetamaskThree />
       </BtnTop>
     </Info>
   );

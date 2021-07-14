@@ -114,7 +114,7 @@ const Item = styled.div`
   }
 `;
 
-const Part6 = () => {
+const Part3 = () => {
   return (
     <Wrapper>
       <Grid>
@@ -156,4 +156,4 @@ const Part6 = () => {
   );
 };
 
-export default Part6;
+export default Part3;

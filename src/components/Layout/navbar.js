@@ -5,6 +5,7 @@ import LogoJPG from "../../images/logo.jpg";
 import ConnectImg from "../../images/left.svg";
 import Button from "../ThemeUI/Button";
 import FallBack from "../ThemeUI/FallBack";
+import Metamask from "../ThemeUI/Metamask";
 
 const Wrapper = styled.div`
   position: fixed;
@@ -63,7 +64,7 @@ const FullWidth = styled.div`
   }
 `;
 
-function Navbar() {
+function Navbar(props) {
   return (
     <Wrapper>
       <Nav className="navbar">
@@ -77,7 +78,7 @@ function Navbar() {
           />
 
           <h2 className="logoMain">Jindu Inu</h2>
-          <Button text="Connect" />
+          <Metamask text="Connect" />
           <img src={ConnectImg} alt="login" className="connecting"></img>
         </FullWidth>
       </Nav>
