@@ -4,7 +4,6 @@ import styled from "styled-components";
 const Background = styled.div`
   box-shadow: 0 10px 30px 0 rgb(0 0 0 / 10%);
   height: 4.5rem;
-  background: #fff;
 `;
 const Wrapper = styled.section`
   box-sizing: content-box;

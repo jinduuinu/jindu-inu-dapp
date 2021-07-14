@@ -152,7 +152,7 @@ const ButtonUp = styled.button`
 
   .dogImg {
     height: 150px;
-    top: -8rem;
+    top: -8.2rem;
     right: -25rem;
     position: absolute;
     @media (min-width: 320px) and (max-width: 480px) {
@@ -187,6 +187,32 @@ const ButtonUp = styled.button`
       display: none;
     }
   }
+
+  input {
+    width: 100%;
+    height: 50px;
+    line-height: 1.5;
+    font-size: 18px;
+
+    ::placeholder {
+      /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: #344161;
+      font-family: "JinduInu2", sans-serif;
+      opacity: 1; /* Firefox */
+    }
+
+    :-ms-input-placeholder {
+      /* Internet Explorer 10-11 */
+      color: #344161;
+      font-family: "JinduInu2", sans-serif;
+    }
+
+    ::-ms-input-placeholder {
+      /* Microsoft Edge */
+      color: #344161;
+      font-family: "JinduInu2", sans-serif;
+    }
+  }
 `;
 
 const SwapOldNew = () => {
@@ -212,8 +238,7 @@ const SwapOldNew = () => {
               <div className="inPut">
                 <div>
                   <div>
-                    <h3 className="number">0,000</h3>
-                    <input></input>
+                    <input placeholder="0,000"></input>
                   </div>
                 </div>
               </div>
@@ -221,8 +246,7 @@ const SwapOldNew = () => {
               <div className="inPutTwo">
                 <div>
                   <div>
-                    <h3 className="number2">0,000</h3>
-                    <input></input>
+                    <input placeholder="0,000"></input>
                   </div>
                 </div>
               </div>

@@ -5,6 +5,9 @@ import { GlobalStyles } from "../../ThemeUI/globalStyles";
 import { lightTheme, darkTheme } from "../../ThemeUI/Theme";
 import { useDarkMode } from "../../ThemeUI/useDarkMode";
 import Toggle from "../../ThemeUI/Toggle";
+import styled from "styled-components";
+
+const Sidebar = styled.div``;
 
 function LeftBar() {
   window.onload = function () {
@@ -31,7 +34,7 @@ function LeftBar() {
     <div>
       <ThemeProvider theme={themeMode}>
         <GlobalStyles />
-        <div className="sidebar">
+        <Sidebar className="sidebar">
           <div className="logo_content">
             <i className="bx bx-menu" id="btn"></i>
           </div>
@@ -85,7 +88,7 @@ function LeftBar() {
               <Toggle theme={theme} toggleTheme={themeToggler} />
             </div>
           </div>
-        </div>
+        </Sidebar>
       </ThemeProvider>
     </div>
   );

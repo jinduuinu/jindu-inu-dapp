@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Bg from "../../../images/bgpart1.svg";
+import Bg from "../../../images/partzzz.svg";
 
 const Background = styled.div`
   background: url(${Bg}) no-repeat center;
