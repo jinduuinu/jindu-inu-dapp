@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Description from "./Parts/Description";
 import SwapOldNew from "./Parts/SwapOldNew";
-import Bg from "../../../images/lol.svg";
+import Bg from "../../../images/bg.svg";
 
 const BgMain = styled.div`
   background: url(${Bg}) no-repeat center;

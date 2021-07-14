@@ -177,7 +177,7 @@ const ButtonUp = styled.div`
     display: flex;
     align-items: center;
     position: absolute;
-    bottom: 10rem;
+    bottom: 10.5rem;
     left: 225px;
   }
   .descriptionSwap {
