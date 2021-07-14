@@ -41,10 +41,7 @@ const ButtonUp = styled.div`
     top: 11.5rem;
     font-size: 12px;
     @media (min-width: 320px) and (max-width: 480px) {
-      position: absolute;
-      top: 10.6rem;
-      left: 2rem;
-      font-size: 12px;
+      display: none;
     }
   }
 
@@ -53,10 +50,7 @@ const ButtonUp = styled.div`
     top: 17.6rem;
     font-size: 12px;
     @media (min-width: 320px) and (max-width: 480px) {
-      position: absolute;
-      top: 16.7rem;
-      font-size: 12px;
-      left: 2rem;
+      display: none;
     }
   }
 
