@@ -170,7 +170,7 @@ const Link = styled.a`
 const Part2 = () => {
   return (
     <Background>
-      <Wrapper>
+      <Wrapper id="page3">
         <Grid>
           <Item>
             <Link className="linkcolor" href="/">
@@ -211,7 +211,9 @@ const Part2 = () => {
               Provides new jind liquidity.(We put in as many new jind and bnb as
               we recorded.)
             </Text>
-            <Text>Start trading on Pancake Swap and several exchanges</Text>
+            <Text id="page4">
+              Start trading on Pancake Swap and several exchanges
+            </Text>
           </Item>
         </Grid>
 

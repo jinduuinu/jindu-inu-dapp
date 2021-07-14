@@ -6,7 +6,7 @@ export const lightTheme = {
   ibx: "#344161",
   span: "#f2cead",
   nav: "#fff",
-  tagline: "#8f561a",
+  tagline: "#faad5e",
   logoMain: "#344161",
   descriptionSwap: "#344161",
   pa: "#344161",

@@ -28,7 +28,7 @@ const Grid = styled.div`
 const Part4 = () => {
   return (
     <Background className="footerBg">
-      <Wrapper>
+      <Wrapper id="page6">
         <Grid className="footerColor">
           © 2021 by JINDO INU | team@jindoinu.info
         </Grid>

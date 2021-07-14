@@ -46,7 +46,7 @@ const Height = styled.div`
 
 const Header = () => {
   return (
-    <BgMain className="backgroundColor">
+    <BgMain id="page1" className="backgroundColor">
       <Wrapper>
         <Height>
           <Description />

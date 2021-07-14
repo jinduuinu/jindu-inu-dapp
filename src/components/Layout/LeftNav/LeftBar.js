@@ -37,37 +37,37 @@ function LeftBar() {
           </div>
           <ul className="nav_list">
             <li>
-              <a href="/">
+              <a href="#page1">
                 <i class="bx bxs-coin-stack"></i>{" "}
                 <span className="links_name">Home</span>
               </a>
             </li>
             <li>
-              <a href="/">
+              <a href="#page2">
                 <i class="bx bxs-pie-chart-alt-2"></i>{" "}
                 <span className="links_name">Tokenomics</span>
               </a>
             </li>
             <li>
-              <a href="/">
+              <a href="#page3">
                 <i class="bx bxs-report"></i>{" "}
                 <span className="links_name">Roadmap</span>
               </a>
             </li>
             <li>
-              <a href="/">
+              <a href="#page4">
                 <i class="bx bxs-rocket"></i>{" "}
                 <span className="links_name">Information</span>
               </a>
             </li>
             <li>
-              <a href="/">
+              <a href="#page5">
                 <i class="bx bxs-receipt"></i>
                 <span className="links_name">Listings</span>
               </a>
             </li>
             <li>
-              <a href="/">
+              <a href="#page6">
                 <i class="bx bxs-component"></i>{" "}
                 <span className="links_name">Contact</span>
               </a>

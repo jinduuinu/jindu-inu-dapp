@@ -116,7 +116,7 @@ const Item = styled.div`
 
 const Part3 = () => {
   return (
-    <Wrapper>
+    <Wrapper id="page5">
       <Grid>
         <Item>
           <FallBack

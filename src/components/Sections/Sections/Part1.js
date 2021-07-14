@@ -14,7 +14,7 @@ const Wrapper = styled.section`
   background-size: cover;
   @media (min-width: 320px) and (max-width: 480px) {
     padding-bottom: 0rem !important;
-    padding-top: 2rem !important;
+    padding-top: 4rem !important;
   }
   @media (min-width: 481px) and (max-width: 767px) {
     padding-bottom: 0rem !important;
@@ -135,7 +135,7 @@ const Link = styled.a`
 
 const Part1 = () => {
   return (
-    <Wrapper>
+    <Wrapper id="page2">
       <Grid>
         <Item>
           <Circle>
