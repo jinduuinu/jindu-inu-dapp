@@ -10,6 +10,7 @@ const Wrapper = styled.section`
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 5rem;
 `;
 
 const Grid = styled.div`

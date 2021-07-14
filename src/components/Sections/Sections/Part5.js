@@ -9,19 +9,26 @@ import Image5 from "../../../images/hobit.webp";
 import Image6 from "../../../images/hobit.jpg";
 import Image7 from "../../../images/indoex.webp";
 import Image8 from "../../../images/indoex.jpg";
-
+import "../../../App.css";
 const Wrapper = styled.section`
   box-sizing: content-box;
   max-width: 1050px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 60px;
   padding-bottom: 80px;
+  place-content: center;
+  text-align: left;
   display: flex;
-
+  box-shadow: 0 10px 30px 0 rgb(0 0 0 / 10%);
+  border-radius: 10px;
+  background: #fff;
   @media (min-width: 320px) and (max-width: 480px) {
     padding-top: 0;
     padding-bottom: 1rem;
     justify-content: center;
+    margin: 20px;
+    padding: 20px;
   }
 `;
 
@@ -113,46 +120,38 @@ const Item = styled.div`
   }
 `;
 
-const Part3 = () => {
+const Part5 = () => {
   return (
     <Wrapper id="page5">
-      <Grid>
-        <Item>
-          <FallBack
-            src={Image1}
-            alt="logo"
-            className="logo"
-            fallback={Image2}
+      <div>
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
           />
-        </Item>
 
-        <Item>
-          <FallBack
-            src={Image3}
-            alt="logo"
-            className="logo"
-            fallback={Image4}
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
           />
-        </Item>
-        <Item>
-          <FallBack
-            src={Image5}
-            alt="logo"
-            className="width"
-            fallback={Image6}
-          />{" "}
-        </Item>
-        <Item>
-          <FallBack
-            src={Image7}
-            alt="logo"
-            className="width"
-            fallback={Image8}
-          />
-        </Item>
-      </Grid>
+
+          <label for="country">Message</label>
+          <textarea id="w3review" name="w3review">
+            At w3schools.com you will learn how to make a website. They offer
+            free tutorials in all web development technologies.
+          </textarea>
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
     </Wrapper>
   );
 };
 
-export default Part3;
+export default Part5;

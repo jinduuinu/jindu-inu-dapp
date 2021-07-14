@@ -11,7 +11,7 @@ const Wrapper = styled.div`
     padding-right: 20px;
   }
 `;
-const ButtonUp = styled.button`
+const ButtonUp = styled.div`
   display: block;
   background: #fff;
   width: 100%;
@@ -152,7 +152,7 @@ const ButtonUp = styled.button`
 
   .dogImg {
     height: 150px;
-    top: -8.2rem;
+    top: -7.9rem;
     right: -25rem;
     position: absolute;
     @media (min-width: 320px) and (max-width: 480px) {
@@ -225,7 +225,7 @@ const SwapOldNew = () => {
             <img src={Dog} className="dogImg" alt="#" />
           </div>
           <XSVG className="btnX xBtn" onClick={() => setHide(false)}></XSVG>
-          <h3>Swap old for new and earn BNB!</h3>
+          <h3>Swap old Jindu tokens for new ones!</h3>
           <p className="descriptionSwap">
             Swap your old coins for new ones and receive them direct in your
             trust wallet in a matter of seconds.

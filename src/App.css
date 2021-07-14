@@ -52,3 +52,73 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #faad5e;
 }
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  height: 50px;
+  background: #fcd7b3;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+  border-top-style: initial;
+  border-right-style: initial;
+  border-left-style: initial;
+  border-image: initial;
+  border-bottom-style: solid !important;
+  border-width: 0px 0px 2px !important;
+  cursor: pointer;
+  border-color: #66362e !important;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+.textarea#w3review {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  height: 50px;
+  background: #fcd7b3;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+  border-top-style: initial;
+  border-right-style: initial;
+  border-left-style: initial;
+  border-image: initial;
+  border-bottom-style: solid !important;
+  border-width: 0px 0px 2px !important;
+  cursor: pointer;
+  border-color: #66362e !important;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+input[type="submit"] {
+  background: #faad5e;
+  border-radius: 30px;
+  border-width: 0px 0px 2px !important;
+  border: solid #344161;
+  height: 2.5rem;
+  color: #344161;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+  cursor: pointer;
+}
+
+label {
+  line-height: 1.5;
+  font-size: 18px;
+  color: #344161;
+  font-family: "JinduInu2", sans-serif;
+  margin-bottom: 1.5rem;
+  text-decoration: unset;
+}

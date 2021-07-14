@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import Bg from "../../../images/part3.svg";
 
 const Wrapper = styled.section`
   box-sizing: content-box;
@@ -10,8 +9,6 @@ const Wrapper = styled.section`
   padding-top: 100px;
   padding-bottom: 100px;
   display: flex;
-  background: url(${Bg}) no-repeat center;
-  background-size: cover;
   @media (min-width: 320px) and (max-width: 480px) {
     padding-bottom: 0rem !important;
     padding-top: 4rem !important;
