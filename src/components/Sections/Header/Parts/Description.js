@@ -92,7 +92,7 @@ const Description = () => {
       <TagLine className="tagline">CRYPTO · BSC · BENEFITS</TagLine>
       <Title>Invest in what you believe in</Title>
       <Text>
-        Explore our new Jindu Inu $JIND{" "}
+        Explore our new Jindo Inu $JIND{" "}
         <Underline className="underline">hyper deflationary token</Underline>{" "}
         with extra benefits to holder.
       </Text>

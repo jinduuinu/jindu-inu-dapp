@@ -154,7 +154,7 @@ const Part1 = () => {
             Reward to holders
           </Link>
           <Text className="linkcolor">
-            Another 5% goes to the holders as reward.
+            Another 4% goes to the holders as reward.
           </Text>
         </Item>
 

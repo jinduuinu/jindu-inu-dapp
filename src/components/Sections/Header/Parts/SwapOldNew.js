@@ -219,13 +219,13 @@ const SwapOldNew = () => {
             <img src={Dog} className="dogImg" alt="#" />
           </div>
           <XSVG className="btnX xBtn" onClick={() => setHide(false)}></XSVG>
-          <h3>Swap old Jindu tokens for new ones!</h3>
+          <h3>Swap old Jindo tokens for new ones!</h3>
           <p className="descriptionSwap">
             Swap your old coins for new ones and receive them direct in your
             trust wallet in a matter of seconds.
           </p>
-          <p className="nameTok">Old Jindu Inu:</p>
-          <p className="nameTok2">New Jindu Inu:</p>
+          <p className="nameTok">Old Jindo Inu:</p>
+          <p className="nameTok2">New Jindo Inu:</p>
           <i class="bx bx-transfer"></i>{" "}
           <div className="swapForm">
             <div className="inputGrid">

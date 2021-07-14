@@ -77,7 +77,7 @@ function Navbar(props) {
             alt="A photo showing the expiration date on a box of Lucky Charms"
           />
 
-          <h2 className="logoMain">Jindu Inu</h2>
+          <h2 className="logoMain">Jindo Inu</h2>
           <Metamask text="Connect" />
           <img src={ConnectImg} alt="login" className="connecting"></img>
         </FullWidth>
